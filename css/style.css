@@ -45,13 +45,18 @@ header {
 
 .menuNav {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 220px;
     border: 1px solid black;
     float: left;
 }
 
-.menuNav>li {
+.menuNav li {
     display: inline-block;
+    margin-right: 30px;
+}
+
+.menuNav li:hover {
+    background: pink;
 }
 
 .button {
@@ -71,4 +76,15 @@ header {
 
 .button2 {
     background: blue;
+}
+
+/* Header end */
+
+.hospitalLogo {
+    width: 100%;
+    height: 500px;
+    border: 2px solid red;
+    margin-top: 70px;
+    background: url('../img/hospitalLogo.jpg');
+    background-size: 100%;
 }
