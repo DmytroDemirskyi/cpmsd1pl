@@ -60,9 +60,6 @@ header {
 }
 
 .button {
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px;
     width: 150px;
     height: 50px;
     font-size: 10px;
@@ -72,10 +69,16 @@ header {
 
 .button1 {
     background: red;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 .button2 {
     background: blue;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 /* Header end */
@@ -88,3 +91,52 @@ header {
     background: url('../img/hospitalLogo.jpg');
     background-size: 100%;
 }
+
+.hospitalLogoContainer {
+    width: 1440px;
+    margin: auto;
+}
+
+.aboutSite {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.aboutSite>p {
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+.button3 {
+    background: red;
+    color: black;
+    position: absolute;
+    bottom: 75px;
+    left: 220px;
+}
+
+.button4 {
+    border: 2px solid white;
+    position: absolute;
+    bottom: 75px;
+    left: 400px;
+    color: black;
+}
+
+.aboutNavLeft {
+    position: absolute;
+    left: 20px;
+    top: 125px;
+}
+
+.aboutNavRight {
+    position: absolute;
+    right: 20px;
+    top: 125px;
+}
+
+/* hospitalLogoEnd*/
