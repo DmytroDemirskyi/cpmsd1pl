@@ -1,0 +1,16 @@
+
+
+header {
+    background: blue;
+    width: 100%;
+    height: 50px;
+}
+
+.hContainer {
+    margin: auto;
+    width: 1440px;
+}
+
+.contactList>li {
+    display: inline-block;
+}
