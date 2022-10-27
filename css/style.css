@@ -205,6 +205,10 @@ header {
     height: 500px;
 }
 
+.aboutUsInfo>h2 {
+    padding-top: 100px;
+}
+
 .aboutUsContainer {
     border: 1px solid black;
     width: 1440px;
@@ -212,6 +216,21 @@ header {
     height: 500px;
 }
 
-.photoHosital {
+.photoHospital {
     float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+/* about Us end*/
+
+.news {
+    width: 100%;
+}
+
+.newsContainer {
+    width: 1440px;
+    border: 1px solid orange;
+    height: 500px;
+    margin: auto;
 }
