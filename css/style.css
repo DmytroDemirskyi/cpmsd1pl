@@ -392,18 +392,28 @@ header {
 footer {
     width: 100%;
     background: blue;
+    position: relative;
+    color: white;
 }
 
 .footerContainer {
     width: 1440px;
     height: 300px;
     margin: auto;
+    position: relative;
 }
 
 .contactFooter>p {
     float: left;
     width: 30%; 
     border: 1px solid white;
-    margin-left: 3%;
+    margin-left: 2.5%;
     margin-top: 30px;
+}
+
+.copyrightLane {
+    border-bottom: 2px solid white;
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
 }
