@@ -313,6 +313,7 @@ header {
 
 .medicalPersonalContainer>h2 {
     padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .medicalPersonalBlock {
@@ -320,4 +321,89 @@ header {
     width: 30%;
     border: 1px solid red;
     position: absolute;
+    background: white;
+}
+
+.medicalPersonalBlock>img {
+    width: 95%;
+    margin-top: 10px;
+}
+
+.medicalPersonalBlock1 {
+    left: 2.5%;
+}
+
+.medicalPersonalBlock2 {
+    left: 35%;
+}
+
+.medicalPersonalBlock3 {
+    left: 67.5%;
+}
+
+.buttonBlockMedicalMore {
+    background: red;
+    position: absolute;
+    width: 10%;
+    left: 45%;
+    bottom: 100px;
+}
+
+/* personal End */
+
+.mostAsk {
+    width: 100%;
+}
+
+.mostAskContainer {
+    width: 1440px;
+    margin: auto;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.mostAskContainer>h2 {
+    margin-top: 50px;
+}
+
+.ask {
+    height: 400px;
+    margin-top: 50px;
+    width: 35%;
+    border: 1px solid black;
+    position: absolute;
+}
+
+.ask>img {
+    margin-top: 30px;
+}
+
+.ask1 {
+   left: 10%;
+}
+
+.ask2 {
+    right: 10%;
+}
+
+/* ask End */
+
+footer {
+    width: 100%;
+    background: blue;
+}
+
+.footerContainer {
+    width: 1440px;
+    height: 300px;
+    margin: auto;
+}
+
+.contactFooter>p {
+    float: left;
+    width: 30%; 
+    border: 1px solid white;
+    margin-left: 3%;
+    margin-top: 30px;
 }
