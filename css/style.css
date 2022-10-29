@@ -215,6 +215,10 @@ header {
     margin-left: 180px;
 }
 
+.button3:hover {
+    background: rgb(255, 60, 0);
+}
+
 .button4 {
     border: 3px solid #0655a2;
     width: 247px;
@@ -230,6 +234,10 @@ header {
     text-align: center;
 }
 
+.button4:hover {
+    border: 3px solid #0093c0;
+}
+
 .aboutNavLeft {
     position: absolute;
     left: 20px;
@@ -239,6 +247,8 @@ header {
     background: url('../img/left.png');
     background-size: 80px;
 }
+
+
 
 .aboutNavRight {
     position: absolute;
