@@ -25,7 +25,12 @@ header {
     width: 1440px;
     height: 50px;
     color: white;
-    font-size: 22px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.contactList {
+    margin-left: 160px;
 }
 
 .contactList>li {
@@ -101,7 +106,7 @@ header {
 .menuNav {
     margin-left: 50px;
     float: left;
-    font-size: 25px;
+    font-size: 18px;
     height: 70px;
 }
 
@@ -492,12 +497,12 @@ header {
 
 .news {
     width: 100%;
-    background: lightskyblue;
+    background: url('../img/newsBack.png');
+    background-size: 100% 100%;
 }
 
 .newsContainer {
     width: 1440px;
-    border: 1px solid orange;
     height: 750px;
     margin: auto; 
     text-align: center;
@@ -506,14 +511,19 @@ header {
 
 .newsContainer>h2 {
     padding-top: 50px;
+    color: red;
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 .newsBlock {
-    width: 25%;
-    height: 200px;
+    width:250px;
+    height: 250px;
     border: 1px solid red;
-    position: absolute;
-    margin-top: 100px;
+    float: left;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .newsBlock1 {
