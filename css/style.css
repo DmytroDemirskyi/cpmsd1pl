@@ -264,6 +264,7 @@ header {
 
 .info {
     width: 100%;
+    position: relative;
 }
 
 .infoContainer {
@@ -273,6 +274,25 @@ header {
     margin-top: 100px;
   /*  border: 2px solid orange; */
     position: relative;
+}
+
+.pulsImage1 {
+    width: 250px;
+    height: 150px; 
+    position: absolute;
+    background: url('../img/puls.png');
+    background-size: 300px 150px;
+    top: 450px;
+}
+
+.pulsImage2 {
+    width: 250px;
+    height: 150px; 
+    position: absolute;
+    background: url('../img/puls.png');
+    background-size: 300px 150px;
+    right: 0px;
+    top: 150px;
 }
 
 .mainInfoBlock {
