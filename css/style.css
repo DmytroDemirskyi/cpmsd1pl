@@ -357,31 +357,88 @@ header {
 .infoBlock1 {
     left: 52.5%;
     background: url('../img/moz.png');
-    background-size: 100% 100%;
+    background-size: 15% 15%;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 20px;
+    position: absolute;
+}
+
+.infoH3 {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.infoP {
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.infoButton1 {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    border: 3px solid black;
+    border-radius: 25px;
+    color: black;
+    float: right;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 
 .infoBlock2 {
     left: 75%;
+    background: url('../img/dog.png');
+    background-size: 15% 15%;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 20px;
 }
 
 .infoBlock3 {
     left: 5%;
     margin-top: 350px;
+    background: url('../img/viber2.png');
+    background-size: 15% 15%;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 20px;
 }
 
 .infoBlock4 {
     left: 30%;
     margin-top: 350px;
+    background: url('../img/dog.png');
+    background-size: 15% 15%;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 20px;
 }
 
 .infoBlock5 {
     left: 52.5%;
     margin-top: 350px;
+    background: url('../img/dog.png');
+    background-size: 15% 15%;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 20px;
 }
 
 .infoBlock6 {
     left: 75%;
     margin-top: 350px;
+    background: url('../img/dog.png');
+    background-size: 15% 15%;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 20px;
 }
 
 /* infoEnd */
