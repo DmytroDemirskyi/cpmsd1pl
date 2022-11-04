@@ -622,14 +622,48 @@ header {
 
 .viberContainer {
     width: 1440px; 
-    border: 1px solid brown;
+    border: 1px solid #ffffff; /* &&& delete border */
     margin: auto;
     height: 500px;
 }
 
+.viberContainer>h2 {
+    color: red;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.viberContainer>p {
+    margin-top: 50px;
+    margin-left: 400px;
+    color: #494949;
+    font-size: 20px;
+}
+
 .viberImage {
-    float: right;
-    margin-right: 5%;
+    float: left;
+    width: 420px;
+    height: 444px;
+    margin-top: 30px;
+    margin-left: -100px;
+}
+
+.buttonMoreViber {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    background: #8f5db7;
+    border: 3px solid #59267c;
+    border-radius: 25px;
+    color: black;
+    float: left;
+    margin-top: 50px;
+    margin-left: 70px;
+    color: white;
 }
 
 /* viber end */
