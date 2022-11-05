@@ -670,7 +670,7 @@ header {
 
 .medicalPersonal {
     width: 100%;
-    background: skyblue;
+    background: url('../img/aboutDoctorBack.png');
 }
 
 .medicalPersonalContainer {
@@ -684,14 +684,40 @@ header {
 .medicalPersonalContainer>h2 {
     padding-top: 50px;
     margin-bottom: 50px;
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
 }
 
 .medicalPersonalBlock {
     height: 400px;
     width: 30%;
-    border: 1px solid red;
+    box-shadow: 0px 3px 2px 3px rgb(155, 155, 155);
     position: absolute;
     background: white;
+    background-image: url('../img/plus.png');
+    background-size: 130px 130px;
+    background-repeat: no-repeat;
+    background-position: 160px 260px
+}
+
+.medicalPersonalBlock>h3 {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.medicalPersonalBlock>p {
+    font-weight: bold;
+    color: #494949;
+}
+
+.medicalPersonalBlock>p:last-child {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
 }
 
 .medicalPersonalBlock>img {
@@ -712,11 +738,17 @@ header {
 }
 
 .buttonBlockMedicalMore {
-    background: red;
     position: absolute;
-    width: 10%;
-    left: 45%;
-    bottom: 100px;
+    left: 42.5%;
+    bottom: 70px;
+    width: 15%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    border: 3px solid #5e5e5e;
+    border-radius: 25px;
+    color: #5e5e5e;
 }
 
 /* personal End */
