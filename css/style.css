@@ -12,6 +12,7 @@
 
 body, html {
     font-family: 'Lato Regular';
+    overflow-x:hidden;
 }
 
 header {
@@ -818,11 +819,11 @@ header {
 }
 
 .askCircle {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     float: right;
     margin-right: 20px;
-    margin-top: 6px;
+    margin-top: 12px;
 }
 
 /* ask End */
@@ -837,9 +838,22 @@ footer {
 
 .footerContainer {
     width: 1440px;
-    height: 300px;
+    height: 80px;
     margin: auto;
     position: relative;
+}
+
+.contactListFooter {
+    width: 700px;
+    height: 50px;
+    margin: auto;
+}
+
+.contactListFooter>li {
+    float: left;
+  /*  border: 1px solid red;  */
+    margin-right: 15px;
+    margin-top: 20px;
 }
 
 .contactFooter>p {
