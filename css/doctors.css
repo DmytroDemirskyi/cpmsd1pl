@@ -263,6 +263,11 @@ h1 {
     margin-top: 20px;
     box-shadow: 0px 0px 2px 3px rgb(206, 205, 205);
     margin-bottom: 30px;
+    background: url('../img/plus.png');
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    background-position-x: 600px;
+    background-position-y: 30px;
 }
 
 .ambulatoria1:hover {
@@ -299,7 +304,7 @@ h1 {
 }
 
 .ambulatoria1Info>p {
-    
+
 }
 
 .pAmbulatoria {
