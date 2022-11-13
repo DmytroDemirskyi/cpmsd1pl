@@ -228,6 +228,9 @@ header {
 h1 {
     text-align: center;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
 }
 
 .ambulatorias li {
@@ -275,7 +278,7 @@ h1 {
 .ambulatoria1Info {
     height: 210px;
     width: 960px;
-    margin-left: 400px;
+    margin-left: 360px;
     padding: 20px;
     position: relative;
 }
@@ -283,8 +286,28 @@ h1 {
 .ambulatoria1Info>h2 {
     color: red;
     font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 30px;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.contactInfo {
+    position: absolute;
+    bottom: 0px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.ambulatoria1Info>p {
+    
+}
+
+.pAmbulatoria {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .ambulatoria1Info > iframe {
