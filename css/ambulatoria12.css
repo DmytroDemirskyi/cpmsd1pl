@@ -228,7 +228,12 @@ header {
 
 
 
-
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
 
 .medicalPersonal {
     width: 100%;
@@ -262,7 +267,10 @@ header {
     background-image: url('../img/plus.png');
     background-size: 130px 130px;
     background-repeat: no-repeat;
-    background-position: 160px 260px
+    background-position: 160px 260px;
+    border-top: 7px solid #0357ab;
+    position: relative;
+    vertical-align: bottom;
 }
 
 .medicalPersonalBlock>h3 {
@@ -290,3 +298,15 @@ header {
     margin-top: 10px;
 }
 
+.buttonDoctor {
+    background: red;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    margin-left: 125px;
+}
