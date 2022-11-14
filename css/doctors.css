@@ -299,12 +299,13 @@ h1 {
     position: absolute;
     bottom: 0px;
     font-weight: bold;
+    font-size: 16px;
     margin-bottom: 10px;
     line-height: 20px;
 }
 
 .ambulatoria1Info>p {
-
+    font-size: 18px;
 }
 
 .pAmbulatoria {
