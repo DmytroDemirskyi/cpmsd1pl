@@ -1,0 +1,290 @@
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('../fonts/Lato-Regular.eot');
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Lato-Regular.woff') format('woff'),
+    url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body, html {
+    font-family: 'Lato Regular';
+    overflow-x:hidden;
+}
+
+header {
+    background: #0357ab;
+    width: 100%;
+    height: 60px;
+}
+
+.hContainer {
+    margin: auto;
+    width: 1440px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.contactList {
+    margin-left: 160px;
+}
+
+.contactList>li {
+    float: left;
+  /*  border: 1px solid red;  */
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.facebookIcons {
+    height: 45px;
+    width: 45px;
+    margin-top: 5px;
+}
+
+.viberIcons {
+    height: 45px;
+    width: 45px;
+    margin-top: 5px;
+}
+
+.contactListImg>li {
+    margin-right: 20px;
+    float: right;
+}
+
+
+.mapIcons {
+    height: 35px;
+    width: 35px;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    float: left;
+}
+
+.mailIcons {
+    height: 35px;
+    width: 35px;
+    margin-top: -10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.callIcons {
+    height: 35px;
+    width: 35px;
+    margin-top: -10px;
+    margin-right: 10px;
+    float: left;
+}
+
+/* infoLine End  */
+
+/* navBegin */
+
+.navContainer {
+    width: 1440px;
+    height: 75px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.siteLogo {
+    color: #0655a2;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.menuNav {
+    margin-left: 50px;
+    float: left;
+    font-size: 18px;
+    height: 70px;
+}
+
+.menuNav>li {
+    display: inline-block;
+    margin-right: 30px;
+    height: 100%;
+    line-height: 70px;
+}
+
+.aNav {
+    color: #494949;
+    text-decoration: none;
+}
+
+.aNav:hover {
+    text-decoration: underline;
+}
+
+.appointmentDoctor {
+    width: 220px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 25px;
+    color: #ffffff;
+    background: #eb221c;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.appointmentDoctor:hover {
+    background: rgb(255, 60, 0);
+}
+
+.appointmentDoctor>p {
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.appointmentDoctor>img {
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.helsiInfo {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+    color: #ffffff;
+    background: #0257aa;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.helsiInfo:hover {
+    outline: 3px solid #0093c0;
+}
+
+.helsiInfo>img {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+/* Header end */
+
+
+
+
+
+
+
+
+
+
+
+.doctors {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.doctorsContainer {
+    width: 1440px; 
+    min-height: 690px;
+    margin: auto;
+}
+
+.breadCrumbsBlock {
+    height: 40px;
+    font-size: 16px;
+    padding-left: 175px;
+    font-weight: bold;
+    border-top: 1px solid gray;
+}
+
+.breadCrumbsList li {
+    display: inline-block;
+    margin: 15px 5px;
+    color: gray;
+}
+
+.breadCrumbsLink>li:hover {
+    text-decoration: underline;
+}
+
+/* breadCrumbs end */
+
+
+
+
+
+
+.medicalPersonal {
+    width: 100%;
+    background: none;
+}
+
+.medicalPersonalContainer {
+    width: 1440px; 
+    min-height: 700px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.medicalPersonalContainer>h2 {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+}
+
+.medicalPersonalBlock {
+    height: 450px;
+    width: 30%;
+    box-shadow: 0px 3px 2px 3px rgb(155, 155, 155);
+    position: inline-block;
+    background: white;
+    background-image: url('../img/plus.png');
+    background-size: 130px 130px;
+    background-repeat: no-repeat;
+    background-position: 160px 260px
+}
+
+.medicalPersonalBlock>h3 {
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.medicalPersonalBlock>p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #494949;
+}
+
+.medicalPersonalBlock>p:last-child {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.medicalPersonalBlock>img {
+    width: 95%;
+    margin-top: 10px;
+}
+
