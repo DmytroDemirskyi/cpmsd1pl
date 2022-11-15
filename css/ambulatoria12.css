@@ -256,6 +256,12 @@ h1 {
     font-weight: bolder;
 }
 
+.hAmbulatoria {
+    color: black !important;
+    font-size: 20px !important;
+    margin-bottom: 30px !important;
+}
+
 .medicalPersonalBlock {
     height: 450px;
     width: 30%;
@@ -267,7 +273,7 @@ h1 {
     background-image: url('../img/plus.png');
     background-size: 130px 130px;
     background-repeat: no-repeat;
-    background-position: 160px 260px;
+    background-position: 160px 255px;
     border-top: 7px solid #0357ab;
     position: relative;
     vertical-align: bottom;
@@ -286,7 +292,7 @@ h1 {
     color: #494949;
 }
 
-.medicalPersonalBlock>p:last-child {
+.ambulatoriaNumberP {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
