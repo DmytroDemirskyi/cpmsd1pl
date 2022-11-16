@@ -1,0 +1,90 @@
+
+
+.aboutHospital {
+    width: 100%;
+    min-height: 710px;
+}
+
+.aboutHospitalContainer {
+    width: 1440px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+/* bread crumbs begin */
+
+
+.breadCrumbsBlock {
+    height: 40px;
+    font-size: 16px;
+    padding-left: 175px;
+    font-weight: bold;
+    border-top: 1px solid gray;
+}
+
+.breadCrumbsList li {
+    display: inline-block;
+    margin: 15px 5px;
+    color: gray;
+}
+
+.breadCrumbsLink>li:hover {
+    text-decoration: underline;
+}
+
+
+
+/* bread crumbs end */
+.aboutHospitalWork {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+
+.mainWorkHospital {
+    height: 330px;
+    box-shadow: 0px 3px 5px 5px rgb(155, 155, 155);
+    padding: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutHospitalImage0 {
+    float: right;
+}
+
+
+/* main end */
+
+.hospitalWorkProcces {
+    box-shadow: 0px 3px 5px 5px rgb(155, 155, 155);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.aboutHospitalImg1, .aboutHospitalImg2 {
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin-top: 10px;
+}
+
+/* procces end */
+
+.law {
+    box-shadow: 0px 3px 5px 5px rgb(155, 155, 155);
+    margin-top: 50px;
+    padding: 20px;
+}
