@@ -1,0 +1,77 @@
+/* bread crumbs begin */
+
+
+.breadCrumbsBlock {
+    height: 40px;
+    font-size: 16px;
+    padding-left: 175px;
+    font-weight: bold;
+    border-top: 1px solid gray;
+}
+
+.breadCrumbsList li {
+    display: inline-block;
+    margin: 15px 5px;
+    color: gray;
+}
+
+.breadCrumbsLink>li:hover {
+    text-decoration: underline;
+}
+
+
+
+/* bread crumbs end */
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
+
+.news {
+    width: 100%;
+    min-height: 680px;
+    margin-top: 70px;
+}
+
+.newsContainer {
+    width: 1440px;
+    margin: auto;
+}
+
+.newsBlock {
+    width: 27.5%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 4.5%;
+    margin-bottom: 50px;
+    box-shadow: 0px 3px 5px 5px rgb(155, 155, 155);
+    position: relative;
+    text-align: center;
+}
+
+.dateNews {
+    background: #0357ab;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+
+.newsH3 {
+    margin-top: 45%;
+    font-weight: bold;
+}
+
+.newsP {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
