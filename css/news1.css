@@ -1,0 +1,41 @@
+
+
+
+h2 {
+     text-align: center;
+}
+
+.newsNumber {
+    width: 1440px;
+    min-height: 500px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 4px 3px rgb(155, 155, 155);
+}
+
+.list-for li {
+    margin-top: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ol {
+    margin-top: 20px;
+}
+
+ol li {
+    list-style-type: decimal;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.dostupniLikiLink {
+    color: orange;
+    text-decoration: none;
+}
+
+.pDostupniLikiLink {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
