@@ -50,6 +50,73 @@ h1 {
     box-shadow: 0px 3px 5px 5px rgb(155, 155, 155);
     position: relative;
     text-align: center;
+    color: #ffffff;
+}
+
+.newsBlock1 {
+    background: #ffffff url('../img/biotech.jpeg');
+    background-size: 97% 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 18px;
+}
+
+.newsBlock2 {
+    background: #ffffff url('../img/liki.jpg');
+    background-size: 97% 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 18px;
+}
+
+.newsBlock3 {
+    background: #ffffff url('../img/contact-center.jpg');
+    background-size: 97% 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 18px;
+}
+
+.newsBlock4 {
+    background: #ffffff url('../img/heal.jpg');
+    background-size: 97% 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 18px;
+}
+
+.newsBlock5 {
+    background: #ffffff url('../img/backheal.jpg');
+    background-size: 97% 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 18px;
+}
+
+.newsBlock6 {
+    background: #ffffff url('../img/lep.jpg');
+    background-size: 97% 97%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 18px;
+}
+
+.imgBlueBack {
+    width: 100%;
+    height: 100%;
+    background: url('../img/backNewsBlock.png');
+    background-size: 100% 80px;;
+    background-position: 0px 160px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0px;
+    left: 0px; 
 }
 
 .dateNews {
