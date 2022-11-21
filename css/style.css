@@ -514,7 +514,7 @@ header {
 
 .news {
     width: 100%;
-    background: url('../img/newsBack.png');
+    background: url('../img/newsBack1.png');
     background-size: 100% 100%;
 }
 
@@ -528,7 +528,7 @@ header {
 
 .newsContainer>h2 {
     padding-top: 30px;
-    color: #0357ab;
+    color: red;
     font-size: 35px;
     font-weight: bolder;
     width: 300px;
