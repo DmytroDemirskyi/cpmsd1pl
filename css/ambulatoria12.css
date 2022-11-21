@@ -305,14 +305,22 @@ h1 {
 }
 
 .buttonDoctor {
-    background: red;
+    background: none;
+    outline: 3px solid gray;
     width: 200px;
     height: 40px;
     border-radius: 25px;
     line-height: 40px;
-    color: #ffffff;
+    color: black;
+    font-weight: bold;
     font-size: 16px;
     position: absolute;
     bottom: 20px;
     margin-left: 125px;
+}
+
+.buttonDoctor:hover {
+    background: red;
+    color: white;
+    outline: none;
 }
