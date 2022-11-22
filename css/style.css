@@ -817,35 +817,7 @@ header {
     color: #5e5e5e;
 }
 
-.rightSquare {
-    position: absolute;
-    bottom: 68px;
-    left: 59%;
-    width: 50px;
-    height: 50px;
-}
 
-.allDoctors {
-    width: 150px;
-    height: 30px;
-    position: absolute;
-    left: 645px;
-    bottom: 20px;
-    border: 3px solid red;
-    border-radius: 25px;
-    font-size: 16px;
-    line-height: 30px;
-}
-
-.whiteBlock {
-    width: 450px;
-    height: 130px;
-    background: #ffffff;
-    position: absolute;
-    left: 500px;
-    bottom: 10px;
-    box-shadow: 0px 3px 2px 3px rgb(155, 155, 155);
-}
 
 /* personal End */
 
