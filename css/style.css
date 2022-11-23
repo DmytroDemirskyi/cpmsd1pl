@@ -23,7 +23,7 @@ header {
 
 .hContainer {
     margin: auto;
-    width: 1440px;
+    max-width: 1440px;
     height: 50px;
     color: white;
     font-size: 16px;
@@ -51,6 +51,10 @@ header {
     height: 45px;
     width: 45px;
     margin-top: 5px;
+}
+
+.contactListImg {
+    float: right;
 }
 
 .contactListImg>li {
@@ -89,7 +93,7 @@ header {
 /* navBegin */
 
 .navContainer {
-    width: 1440px;
+    max-width: 1440px;
     height: 75px;
     margin: auto;
     margin-top: 10px;
@@ -181,6 +185,72 @@ header {
     margin-left: 20px;
     margin-top: 5px;
     margin-right: 10px;
+}
+
+@media (max-width: 1280px) {
+    .appointmentDoctor {
+        width: 15%; 
+        height: 50px;
+    }
+
+    .appointmentDoctor>p {
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+    
+    .appointmentDoctor>img {
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+
+    .helsiInfo {
+        width: 10%;
+        height: 50px;
+        font-size: 18px;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    
+    .helsiInfo:hover {
+        outline: 3px solid #0093c0;
+    }
+    
+    .helsiInfo>img {
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+}
+
+@media (max-width: 1140px) {
+    .appointmentDoctor {
+        width: 170px; 
+        height: 50px;
+    }
+
+    .appointmentDoctor>p {
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+    
+    .appointmentDoctor>img {
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+
+    .helsiInfo {
+        display: none;
+}
 }
 
 /* Header end */
@@ -287,12 +357,18 @@ header {
 }
 
 .infoContainer {
-    width: 1440px;
+    max-width: 1440px;
     height: 700px;
     margin: auto;
     margin-top: 50px;
   /*  border: 2px solid orange; */
     position: relative;
+}
+
+@media (max-width: 1280px) {
+    .infoContainer {
+        height: 600px;
+    }
 }
 
 .pulsImage1 {
@@ -302,6 +378,7 @@ header {
     background: url('../img/puls.png');
     background-size: 300px 150px;
     top: 450px;
+    left: -250px;
 }
 
 .pulsImage2 {
@@ -310,21 +387,28 @@ header {
     position: absolute;
     background: url('../img/puls.png');
     background-size: 300px 150px;
-    right: 0px;
+    right: -250px;
     top: 150px;
 }
 
 .mainInfoBlock {
     height: 300px;
-    width: 45%;
+    width: 43.75%;
     position: absolute;
-    left: 5%;
+    left: 3.75%;
     box-shadow: 0px 3px 2px 3px rgb(206, 205, 205);
     border: 1px solid rgb(187, 187, 187);
     background: url('../img/doctor.png');
     background-size: 500px 300px;
     background-position: right;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 1280px) {
+
+.mainInfoBlock {
+    height: 250px;
+}
 }
 
 .mainInfoBlock>img {
@@ -373,8 +457,15 @@ header {
     border: 1px solid rgb(187, 187, 187);
 }
 
+@media (max-width: 1280px) {
+
+    .infoBlock {
+        height: 250px;
+    }
+    }
+
 .infoBlock1 {
-    left: 52.5%;
+    left: 51.25%;
     background: url('../img/moz.png');
     background-size: 20% 20%;
     background-repeat: no-repeat;
@@ -397,7 +488,7 @@ header {
 }
 
 .infoButton1 {
-    width: 200px;
+    width: 80%;
     height: 40px;
     text-align: center;
     font-size: 16px;
@@ -409,8 +500,26 @@ header {
     float: right;
     position: absolute;
     bottom: 20px;
-    left: 47px;
+    left: 10%;
 }
+
+@media (max-width: 1280px) {
+    .infoButton1 {
+        height: 30px;
+        line-height: 32px;
+    }
+
+    .infoP {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .infoH3 {
+        margin-top: 90px;
+        font-size: 20px;
+    }
+}
+
 
 .infoButton1:hover {
     color: #ffffff;
@@ -428,7 +537,7 @@ header {
 }
 
 .infoBlock3 {
-    left: 5%;
+    left: 3.75%;
     margin-top: 350px;
     background: url('../img/hospital.png');
     background-size: 20% 20%;
@@ -438,7 +547,7 @@ header {
 }
 
 .infoBlock4 {
-    left: 30%;
+    left: 27.5%;
     margin-top: 350px;
     background: url('../img/viber2.png');
     background-size: 20% 20%;
@@ -448,7 +557,7 @@ header {
 }
 
 .infoBlock5 {
-    left: 52.5%;
+    left: 51.25%;
     margin-top: 350px;
     background: url('../img/news.png');
     background-size: 20% 20%;
@@ -466,6 +575,14 @@ header {
     background-position-x: 20px;
     background-position-y: 20px;
 }
+
+@media (max-width: 1280px) {
+
+    .infoBlock3, .infoBlock4, .infoBlock5, .infoBlock6 {
+        height: 250px;
+        margin-top: 300px;
+    }
+    }
 
 /* infoEnd */
 
@@ -498,13 +615,13 @@ header {
 }
 
 .aboutUsContainer {
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
     height: 450px;
     background: url('../img/plus.png');
     background-repeat: no-repeat;
     background-size: 250px 250px;
-    background-position-x: 900px;
+    background-position-x: 9000px;
     background-position-y: 100px;
 }
 
@@ -513,6 +630,12 @@ header {
     margin-top: 50px;
     margin-left: 5%;
     margin-right: 20px;
+}
+
+@media (max-width: 1280px) {
+    .aboutUsContainer {
+    background-position-x: 720px;
+    }
 }
 
 /* about Us end*/
@@ -525,7 +648,7 @@ header {
 }
 
 .newsContainer {
-    width: 1440px;
+    max-width: 1440px;
     height: 750px;
     margin: auto; 
     text-align: center;
@@ -553,7 +676,7 @@ header {
 
 .newsBlock {
     width:25%;
-    height: 250px;
+    height: 35%;
     box-shadow: 0px 1px 4px 3px rgb(155, 155, 155);
     float: left;
     margin-top: 50px;
@@ -639,10 +762,20 @@ header {
     top: 5px;
 }
 
+.imgBlueBack {
+    width: 100%;
+    height: 70px;
+    background: url('../img/backNewsBlock.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 10%;
+}
+
 .newsH3 {
-    margin-top: 45%;
     font-weight: bold;
-    display: block;
+    display: inline-block;
+    margin-top: 2.5%;
 }
 
 .newsP {
@@ -650,26 +783,6 @@ header {
     margin-top: 10px;
 }
 
-.imgBlueBack {
-    width: 100%;
-    height: 100%;
-    background: url('../img/backNewsBlock.png');
-    background-size: 100% 80px;;
-    background-position: 0px 150px;
-    background-repeat: no-repeat;
-    position: absolute;
-    bottom: 0px;
-    left: 0px; 
-}
-
-.backBlockNews {
-    width: 100%;
-    height: 70px;
-    background: #0357ab;
-    opacity: 0.5;
-    position: absolute;
-    bottom: 30px;
-}
 
 /* news End */
 
@@ -678,7 +791,7 @@ header {
 }
 
 .viberContainer {
-    width: 1440px; 
+    max-width: 1440px; 
     border: 1px solid #ffffff; /* &&& delete border */
     margin: auto;
     height: 500px;
@@ -687,14 +800,14 @@ header {
 .viberContainer>h2 {
     color: red;
     margin-top: 100px;
-    margin-left: 400px;
+    margin-left: 500px;
     font-weight: bold;
     font-size: 25px;
 }
 
 .viberContainer>p {
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 500px;
     color: #494949;
     font-size: 20px;
 }
@@ -704,7 +817,7 @@ header {
     width: 420px;
     height: 444px;
     margin-top: 30px;
-    margin-left: -100px;
+    margin-left: 0px;
 }
 
 .buttonMoreViber {
@@ -731,8 +844,8 @@ header {
 }
 
 .medicalPersonalContainer {
-    width: 1440px; 
-    height: 700px;
+    max-width: 1440px; 
+    min-height: 500px;
     margin: auto;
     text-align: center;
     position: relative;
@@ -747,15 +860,32 @@ header {
 }
 
 .medicalPersonalBlock {
-    height: 400px;
+    height: 30vw;
+    min-height: 350px;
     width: 30%;
     box-shadow: 0px 3px 2px 3px rgb(155, 155, 155);
-    position: absolute;
     background: white;
     background-image: url('../img/plus.png');
-    background-size: 130px 130px;
+    background-size: 35% 35%;
     background-repeat: no-repeat;
-    background-position: 160px 260px
+    background-position: center 90%;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+@media (min-width: 1440px) {
+    .medicalPersonalBlock {
+        height: 432px;
+        color: red;
+    }
+}
+
+@media (min-width: 1280px) {
+    .medicalPersonalBlock {
+        min-height: 380px;
+    }
 }
 
 .medicalPersonalBlock>h3 {
@@ -889,7 +1019,7 @@ footer {
 }
 
 .footerContainer {
-    width: 1440px;
+    max-width: 1440px;
     height: 80px;
     margin: auto;
     position: relative;
