@@ -956,7 +956,7 @@ header {
 }
 
 .mostAskContainer {
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
     height: 500px;
     text-align: center;
