@@ -13,173 +13,7 @@ body, html {
     overflow-x:hidden;
 }
 
-header {
-    background: #0357ab;
-    width: 100%;
-    height: 60px;
-}
 
-.hContainer {
-    margin: auto;
-    width: 1440px;
-    height: 50px;
-    color: white;
-    font-size: 16px;
-    line-height: 30px;
-}
-
-.contactList {
-    margin-left: 160px;
-}
-
-.contactList>li {
-    float: left;
-  /*  border: 1px solid red;  */
-    margin-right: 15px;
-    margin-top: 20px;
-}
-
-.facebookIcons {
-    height: 45px;
-    width: 45px;
-    margin-top: 5px;
-}
-
-.viberIcons {
-    height: 45px;
-    width: 45px;
-    margin-top: 5px;
-}
-
-.contactListImg>li {
-    margin-right: 20px;
-    float: right;
-}
-
-
-.mapIcons {
-    height: 35px;
-    width: 35px;
-    margin-top: -10px;
-    margin-left: 20px;
-    margin-right: 10px;
-    float: left;
-}
-
-.mailIcons {
-    height: 35px;
-    width: 35px;
-    margin-top: -10px;
-    margin-right: 10px;
-    float: left;
-}
-
-.callIcons {
-    height: 35px;
-    width: 35px;
-    margin-top: -10px;
-    margin-right: 10px;
-    float: left;
-}
-
-/* infoLine End  */
-
-/* navBegin */
-
-.navContainer {
-    width: 1440px;
-    height: 75px;
-    margin: auto;
-    margin-top: 10px;
-}
-
-.siteLogo {
-    color: #0655a2;
-    font-weight: bold;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 20px;
-    float: left;
-}
-
-.menuNav {
-    margin-left: 50px;
-    float: left;
-    font-size: 18px;
-    height: 70px;
-}
-
-.menuNav>li {
-    display: inline-block;
-    margin-right: 30px;
-    height: 100%;
-    line-height: 70px;
-}
-
-.aNav {
-    color: #494949;
-    text-decoration: none;
-}
-
-.aNav:hover {
-    text-decoration: underline;
-}
-
-.appointmentDoctor {
-    width: 220px;
-    height: 50px;
-    font-size: 18px;
-    line-height: 20px;
-    border-radius: 25px;
-    color: #ffffff;
-    background: #eb221c;
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px;
-}
-
-.appointmentDoctor:hover {
-    background: rgb(255, 60, 0);
-}
-
-.appointmentDoctor>p {
-    margin-top: 5px;
-    margin-left: 90px;
-}
-
-.appointmentDoctor>img {
-    float: left;
-    height: 40px;
-    width: 40px;
-    margin-left: 30px;
-    margin-top: 5px;
-}
-
-.helsiInfo {
-    width: 150px;
-    height: 50px;
-    font-size: 18px;
-    line-height: 50px;
-    border-radius: 25px;
-    color: #ffffff;
-    background: #0257aa;
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px;
-}
-
-.helsiInfo:hover {
-    outline: 3px solid #0093c0;
-}
-
-.helsiInfo>img {
-    height: 40px;
-    width: 40px;
-    float: left;
-    margin-left: 20px;
-    margin-top: 5px;
-    margin-right: 10px;
-}
 
 /* Header end */
 
@@ -199,7 +33,7 @@ header {
 }
 
 .doctorsContainer {
-    width: 1440px; 
+    max-width: 1440px; 
     min-height: 690px;
     margin: auto;
 }
@@ -241,6 +75,8 @@ h1 {
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 25px;
+    max-width: 90%;
+    margin: auto;
 }
 
 .ambulatorias li {
@@ -269,14 +105,16 @@ h1 {
 
 
 .ambulatoria1 {
+    width: 90%;
     padding: 20px;
+    margin: auto;
     margin-top: 20px;
     box-shadow: 0px 0px 2px 3px rgb(206, 205, 205);
     margin-bottom: 30px;
     background: url('../img/plus.png');
     background-repeat: no-repeat;
     background-size: 250px 250px;
-    background-position-x: 600px;
+    background-position-x: center;
     background-position-y: 30px;
 }
 
@@ -293,7 +131,7 @@ h1 {
 
 .ambulatoria1Info {
     height: 210px;
-    width: 960px;
+    max-width: 960px;
     margin-left: 360px;
     padding: 20px;
     position: relative;
@@ -329,8 +167,42 @@ h1 {
 
 .ambulatoria1Info > iframe {
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 0px;
+    width: 350px;
+    height: 250px;
+}
+
+@media(max-width: 1320px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .ambulatoria1Info > iframe {
+        top: 0px;
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+
+@media(max-width: 1210px) {
+
+    .ambulatoria1Info > iframe {
+        top: 0px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .ambulatoria1 {
+
+        background: url('../img/plus.png');
+        background-repeat: no-repeat;
+        background-size: 250px 250px;
+        background-position-x: 60%;
+        background-position-y: 30px;
+    }
+
 }
 
 
@@ -388,56 +260,3 @@ h1 {
 
 
 
-
-
-
-
-
-footer {
-    width: 100%;
-    background: #0357ab;
-    position: relative;
-    color: white;
-    text-align: center;
-}
-
-.footerContainer {
-    width: 1440px;
-    height: 80px;
-    margin: auto;
-    position: relative;
-}
-
-.contactListFooter {
-    width: 700px;
-    height: 50px;
-    margin: auto;
-    font-size: 18px;
-}
-
-.contactListFooter>li {
-    float: left;
-  /*  border: 1px solid red;  */
-    margin-right: 15px;
-    margin-top: 20px;
-}
-
-.contactFooter>p {
-    float: left;
-    width: 30%; 
-    border: 1px solid white;
-    margin-left: 2.5%;
-    margin-top: 30px;
-}
-
-.copyrightLane {
-    border-bottom: 2px solid white;
-    position: absolute;
-    width: 100%;
-    bottom: 50px;
-}
-
-.copyright {
-    padding-bottom: 20px;
-    font-size: 20px;
-}
