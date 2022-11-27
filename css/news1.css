@@ -5,8 +5,14 @@ h2 {
      text-align: center;
 }
 
+.aboutHospital {
+    max-width: 1440px;
+    margin: auto;
+}
+
 .newsNumber {
-    width: 1440px;
+    width: 90%;
+    margin: auto;
     min-height: 500px;
     padding: 20px;
     margin-top: 30px;
