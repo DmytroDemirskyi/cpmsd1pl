@@ -1,8 +1,11 @@
 
-
+.viberContainer {
+    max-width: 1440px;
+}
 
 .viber {
-    width: 1440px;
+    width: 90%;
+    margin: auto;
     min-height: 500px;
     padding: 20px;
     margin-top: 30px;
@@ -28,4 +31,8 @@ ol {
 .viber p:last-child {
     margin-top: 150px;
     margin-bottom: 0px;
+}
+
+footer {
+    margin-top: -20px;
 }
