@@ -26,6 +26,7 @@ header {
     color: white;
     font-size: 16px;
     line-height: 30px;
+    position: relative;
 }
 
 .contactList {
@@ -185,6 +186,14 @@ header {
     margin-right: 10px;
 }
 
+.menuMobile {
+    display: none;
+}
+
+.contactMobile {
+    display: none;
+}
+
 @media (max-width: 1280px) {
     .appointmentDoctor {
         width: 15%; 
@@ -249,6 +258,69 @@ header {
     .helsiInfo {
         display: none;
 }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+
+    .menuMobile {
+        display: block;
+        width: 60px;
+        height: 60px;
+    }
+
+    .menuMobile > img {
+        width: 80%;
+        height: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .contactList {
+        background: red;
+        display: absolute;
+        left: 0px;
+        width: 30px;
+        height: 60px;
+    }
+
+
+    .contactMobile {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .contactMobile > img {
+        width: 60%;
+        height: 60%;
+        position: absolute;
+        right: 10px;
+        top: 20%;
+    }
+
+    .siteLogo {
+        position: absolute;
+        top: 0px;
+        color: #ffffff;
+        left: 25%;
+        font-size: 20px;
+        text-align: center;
+        width: 50%;
+    }
+
+
+
 }
 
 /* Header end */
