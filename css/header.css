@@ -194,6 +194,10 @@ header {
     display: none;
 }
 
+.mobileContainer {
+
+}
+
 @media (max-width: 1280px) {
     .appointmentDoctor {
         width: 15%; 
@@ -319,7 +323,37 @@ header {
         width: 50%;
     }
 
+    .hContainer {
+        height: 50px;
+    }
 
+    .mobileContainer {
+        background: red;
+        position: fixed;
+        width: 100%;
+        height: 500px;
+        z-index: 999; /* ! */
+    }
+
+    .contactListImg {
+        display: none;
+    }
+
+    .contactList {
+        position: absolute;
+        left: -130px;
+        font-size: 14px;
+    }
+
+    .contactList li {
+        display: inline-block;
+    }
+
+    .contactList img {
+        float: left;
+    }
+
+    
 
 }
 
