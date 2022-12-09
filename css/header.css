@@ -194,9 +194,7 @@ header {
     display: none;
 }
 
-.mobileContainer {
 
-}
 
 @media (max-width: 1280px) {
     .appointmentDoctor {
@@ -293,7 +291,7 @@ header {
         left: 0px;
         width: 30px;
         height: 60px;
-        display: none;
+        display: block;
     }
 
 
@@ -364,15 +362,11 @@ header {
         float: left;
     }
 
-    .itemHolder {
-        
-       }
 
-       .contactMobile:hover .contactList {
+       .contactMobile:hover {
         display: block;
         width: 500px;
         height: 500px; 
-        background: red;
        }
 
     
