@@ -352,7 +352,7 @@ header {
         top: 65px;
         font-size: 14px;
         background: #0257aa;
-        height: 500px;
+        height: 150px;
         width: 80%;
         padding: 20px;
     }
@@ -364,6 +364,7 @@ header {
 
     .contactList li {
         display: inline-block;
+        margin: 10px;
     }
 
     .contactList img {
