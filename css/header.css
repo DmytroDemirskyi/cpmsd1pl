@@ -186,6 +186,18 @@ header {
     margin-right: 10px;
 }
 
+.mobileContainer {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: 999; /* ! */
+    border: 2px solid orange;
+}
+
+.mobileContainer {
+    display: none;
+}
+
 .menuMobile {
     display: none;
 }
@@ -272,6 +284,10 @@ header {
 
 @media (max-width: 600px) {
 
+    .mobileContainer {
+        display: block;
+    }
+
     .menuMobile {
         display: block;
         width: 60px;
@@ -326,14 +342,6 @@ header {
         height: 50px;
     }
 
-    .mobileContainer {
-        position: fixed;
-        width: 100%;
-        height: 500px;
-        z-index: 999; /* ! */
-        border: 2px solid orange;
-    }
-
     .contactListImg {
         display: none;
     }
@@ -368,8 +376,6 @@ header {
         width: 500px;
         height: 500px; 
        }
-
-    
 
 }
 
