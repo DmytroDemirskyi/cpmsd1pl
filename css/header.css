@@ -355,6 +355,7 @@ header {
         height: 150px;
         width: 80%;
         padding: 20px;
+        display: block;
     }
 
     .mapIcons {
@@ -371,12 +372,6 @@ header {
         float: left;
     }
 
-
-       .contactMobile:hover {
-        display: block;
-        width: 500px;
-        height: 500px; 
-       }
 
 }
 
