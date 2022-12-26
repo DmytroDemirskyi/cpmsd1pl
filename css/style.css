@@ -786,3 +786,17 @@ body, html {
 
 /* ask End */
 
+
+
+@media (max-width: 600px) {
+
+    .hospitalLogo {
+        margin-top: 0px;
+        height: 200px;
+    }
+
+ 
+
+
+    }   
+
