@@ -191,7 +191,6 @@ header {
     width: 100%;
     height: 500px;
     z-index: 999; /* ! */
-    border: 2px solid orange;
 }
 
 .mobileContainer {
@@ -355,24 +354,39 @@ header {
         height: 150px;
         width: 80%;
         padding: 20px;
+        display:none;
+    }
+
+    
+
+    .mobileInfo {
+        background: #0257aa;
+        width: 300px;
+        height: 180px;
+        position: fixed;
+        left: 10px;
+        top: 80px;
+        display: none;
+    }
+
+    .mobileContactList {
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+    .mobileContactList>li {
+        margin-top: 30px;
+    }
+
+    .contactMobile:hover .mobileInfo {
         display: block;
     }
 
-    .mapIcons {
-        padding: 0px;
-        margin: 0px;
+    .menuNav, .appointmentDoctor, .helsiInfo {
+        display: none;
     }
 
-    .contactList li {
-        display: inline-block;
-        margin: 10px;
-    }
-
-    .contactList img {
-        float: left;
-    }
-
-
+    /* .hospitalLogo in style.css */
 }
 
 /* Header end */
