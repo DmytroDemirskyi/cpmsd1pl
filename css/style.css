@@ -29,7 +29,7 @@ body, html {
 }
 
 .hospitalLogoContainer {
-    width: 100%;
+    width: 1440px;
     margin: auto;
 }
 
@@ -793,6 +793,10 @@ body, html {
     .hospitalLogo {
         margin-top: 0px;
         height: 200px;
+    }
+
+    .aboutSite {
+        background: red;
     }
 
     .aboutSite>p {
