@@ -131,7 +131,7 @@ body, html {
 
 @media (max-width: 1280px) {
     .infoContainer {
-        height: 600px;
+        /* height: 600px; */
     }
 }
 
@@ -420,7 +420,7 @@ body, html {
 
 .newsContainer {
     max-width: 1440px;
-    height: 750px;
+    min-height: 750px;
     margin: auto; 
     text-align: center;
     position: relative;
@@ -734,7 +734,7 @@ body, html {
 .mostAskContainer {
     max-width: 1440px;
     margin: auto;
-    height: 500px;
+    min-height: 500px;
     text-align: center;
     position: relative;
     font-size: 16px;
@@ -814,19 +814,132 @@ body, html {
     }
  
     .mainInfoBlock {
-        float: left;
-        width: 300px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 90%;
+        margin-left: 5%;
     }
 
-    .infoBlock3, .infoBlock4, .infoBlock5, .infoBlock6 {
+    .infoBlock1, .infoBlock2, .infoBlock3, .infoBlock4, .infoBlock5, .infoBlock6 {
         display: inline-block;
+        width: 90%;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-top: 30px;
+        margin-left: 5%;
     }
 
-    .infoBlock {
-        float: left;
-        width: 300px;
+    .infoButton1 {
+        width: 80%;
+        height: 40px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 42px;
+        outline: 3px solid gray;
+        border-radius: 25px;
+        color: black;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 20px;
+        left: 10%;
     }
 
+    .photoHospital {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 0px;
+    }
+
+    .aboutUsInfo > h2 {
+        text-align: center;
+        padding: 0px;
+        position: relative;
+        top: 20px;
+    }
+
+    .aboutUsInfo > p {
+        text-align: center;
+    }
+
+    .aboutUsMoreButton {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .news {
+        background: lightgray;
+        background-size: 100% 100%;
+    }
+
+    .newsContainer {
+        height: 2000px;
+    }
+
+    .newsBlock1, .newsBlock2, .newsBlock3, .newsBlock4, .newsBlock5, .newsBlock6 {
+        display: inline-block;
+        width: 90%;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+
+    .viberImage {
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+
+    .viberContainer > h2 {
+        margin: 0px;
+        margin-top: 50px;
+        padding: 0px;
+    }
+
+    .viberContainer > p {
+        margin: 0px;
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .buttonMoreViber {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .medicalPersonalBlock {
+
+    }
+    
+    .medicalPersonalBlock1, .medicalPersonalBlock2, .medicalPersonalBlock3  {
+        display: inline-block;
+        width: 90%;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-top: 30px;
+        margin-left: 5%;
+    }
+
+    .askBlock1 {
+        padding-top: 40px;
+    }
+
+    .askBlock1, .askBlock2 {
+        position: static;
+        display: inline-block;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .ask {
+
+    }
 
     }   
 
