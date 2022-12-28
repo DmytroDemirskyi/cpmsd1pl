@@ -944,8 +944,12 @@ body, html {
     }
 
     .ask {
-
+        width: 90%;
+        height: 60px;
+        line-height: 30px;
     }
+
+
 
     }   
 
