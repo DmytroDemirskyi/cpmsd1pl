@@ -366,7 +366,7 @@ header {
         outline: 3px solid red;
         position: fixed;
         width: 60%;
-        height: 200px;
+        height: 280px;
         display: none;
     }
 
@@ -375,8 +375,14 @@ header {
     }
 
     .menuMobileNav > li {
-        margin-top: 20px;
-        margin-left: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .menuMobileNav > li:hover {
+        background: lightblue;
     }
 
     .aMobileNav {
