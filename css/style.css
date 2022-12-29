@@ -792,7 +792,9 @@ body, html {
 
     .hospitalLogo {
         margin-top: 0px;
-        height: 280px;
+        height: 180px;
+        background-size: 100% 200px;
+        
     }
 
     .aboutNavLeft, .aboutNavRight {
@@ -807,6 +809,8 @@ body, html {
     .aboutSite>p {
         font-size: 20px;
         margin-left: 0px;
+        margin-top: 50px;
+        line-height: 50px;
     }
 
     .button3, .button4 {
@@ -977,6 +981,10 @@ body, html {
             display: inline-block;
             width: 90%;
             height: 70vw;
+        }
+
+        .ambulatoria1 > img {
+            width: 50px;
         }
     }
 
