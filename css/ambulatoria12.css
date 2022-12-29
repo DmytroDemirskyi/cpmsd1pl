@@ -221,3 +221,51 @@ h1 {
 footer {
     margin-top: 50px;
 }
+
+
+@media(max-width: 600px) {
+    .doctors {
+        margin-top: 0px;
+    }
+
+    .breadCrumbsBlock {
+        padding-left: 75px;
+    }
+
+    .breadCrumbsList li {
+        margin: 20px 5px;
+    }
+
+    .medicalPersonalBlock1, .medicalPersonalBlock2, .medicalPersonalBlock3  {
+        display: inline-block;
+        width: 90%;
+        height: 500px;
+    }
+
+    .medicalPersonalBlock {
+        background-position: center 85%;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .medicalPersonalBlock1, .medicalPersonalBlock2, .medicalPersonalBlock3  {
+        display: inline-block;
+        width: 90%;
+        height: 110vw;
+    }
+
+    .breadCrumbsBlock {
+        padding-left: 5px;
+    }
+
+    .breadCrumbsList li {
+        margin: 15px 5px;
+        margin-bottom: 0px;
+    }
+
+    .medicalPersonalBlock {
+        background-position: center 80%;
+    }
+
+}
