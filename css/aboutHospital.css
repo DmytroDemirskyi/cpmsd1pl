@@ -110,3 +110,31 @@ h2 {
 footer {
     margin-top: 50px;
 }
+
+
+@media (max-width: 600px) {
+    .aboutHospital {
+        margin-top: -70px;
+    }
+
+    .mainWorkHospital, .hospitalWorkProcces, .law {
+        width: 85%;
+    }
+
+    .aboutHospitalImage0 {
+        width: 100%;
+        height: 5%;
+        margin-bottom: 20px;
+    }
+
+    .aboutHospitalImg1, .aboutHospitalImg2 {
+      width: 100%;
+      height: 5%;
+    }
+
+
+
+
+
+
+}
