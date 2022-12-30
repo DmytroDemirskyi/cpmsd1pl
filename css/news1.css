@@ -45,3 +45,37 @@ ol li {
     margin-bottom: 20px;
     text-align: center;
 }
+
+@media (max-width: 600px) { 
+   
+    .breadCrumbsBlock {
+        padding-left: 75px;
+    }
+    
+    .breadCrumbsList li {
+        margin: 20px 5px;
+    }
+
+    .aboutHospital {
+        margin-top: -70px;
+    }
+
+    .newsNumber {
+        width: 80%;
+    }
+    
+    }
+
+
+    @media (max-width: 450px) {
+    
+        .breadCrumbsBlock {
+            padding-left: 5px;
+        }
+    
+        .breadCrumbsList li {
+            margin: 15px 5px;
+            margin-bottom: 0px;
+        }
+    
+    }
