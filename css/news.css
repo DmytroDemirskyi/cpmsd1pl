@@ -167,3 +167,25 @@ h1 {
     }
 
 }
+
+@media (max-width: 600px) { 
+
+.newsBlock1, .newsBlock2, .newsBlock3, .newsBlock4, .newsBlock5, .newsBlock6 {
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.breadCrumbsBlock {
+    padding-left: 75px;
+}
+
+.breadCrumbsList li {
+    margin: 20px 5px;
+}
+
+}
