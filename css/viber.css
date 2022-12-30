@@ -36,3 +36,39 @@ ol {
 footer {
     margin-top: -20px;
 }
+
+
+@media (max-width: 600px) { 
+   
+    .breadCrumbsBlock {
+        padding-left: 75px;
+    }
+    
+    .breadCrumbsList li {
+        margin: 20px 5px;
+    }
+    
+    .viberContainer {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .viber {
+        margin-bottom: 50px; 
+    }
+    
+    }
+
+
+    @media (max-width: 450px) {
+    
+        .breadCrumbsBlock {
+            padding-left: 5px;
+        }
+    
+        .breadCrumbsList li {
+            margin: 15px 5px;
+            margin-bottom: 0px;
+        }
+    
+    }
