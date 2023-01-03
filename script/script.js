@@ -1,6 +1,8 @@
-function myFunction() {
-    document.getElementById("menuMobileNav").classList.toggle("show");
+function showMenu() {
+    document.getElementById("menuMobileNav").classList.toggle("showMenu");
 }
+
+
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
@@ -10,8 +12,8 @@ window.onclick = function(event) {
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+      if (openDropdown.classList.contains('showMenu')) {
+        openDropdown.classList.remove('showMenu');
       }
     }
   }
