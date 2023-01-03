@@ -357,13 +357,13 @@ header {
         display:none;
     }
 
-    .imgGGG:hover .menuMobileNav {
+    .menuMobileNav {
         display: block;
     }
 
     .menuMobileNav {
         background: #0257aa;
-        outline: 3px solid red;
+
         position: fixed;
         width: 60%;
         height: 300px;
@@ -418,7 +418,11 @@ header {
         display: none;
     }
 
-    .show {
+    .showMenu {
+        display: block;
+    }
+
+    .showMenu {
         display: block;
     }
 
