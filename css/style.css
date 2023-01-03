@@ -39,7 +39,14 @@ body, html {
     margin: auto;
     margin-top: 100px;
     position: relative;
+    opacity: 0;
+    animation: ani 2.5s forwards;
 }
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
 
 .aboutSite>p {
     margin-left: 260px;
@@ -168,6 +175,20 @@ body, html {
     background-repeat: no-repeat;
 }
 
+.mainInfoBlock:hover {
+    box-shadow:
+      1px 1px lightgray,
+      2px 2px lightgray,
+      3px 3px lightgray,
+      4px 4px lightgray,
+      5px 5px lightgray,
+      6px 6px lightgray,
+      7px 7px lightgray;
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+  }
+
+
 @media (max-width: 1280px) {
 
 .mainInfoBlock {
@@ -227,6 +248,13 @@ body, html {
     box-shadow: 0px 3px 2px 3px rgb(206, 205, 205);
     border: 1px solid rgb(187, 187, 187);
 }
+
+.infoBlock:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    animation: 1s linear forwards;
+  }
 
 @media (max-width: 1280px) {
 
