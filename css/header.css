@@ -370,8 +370,8 @@ header {
         display: none;
     }
 
-    .menuMobile:hover .menuMobileNav{
-        display: block;
+    .menuMobileNav{
+        display: none;
     }
 
     .menuMobileNav > li {
@@ -410,12 +410,16 @@ header {
         margin-top: 30px;
     }
 
-    .contactMobile:hover .mobileInfo {
-        display: block;
+    .mobileInfo {
+        display: none; /* info */
     }
 
     .menuNav, .appointmentDoctor, .helsiInfo {
         display: none;
+    }
+
+    .show {
+        display: block;
     }
 
     /* .hospitalLogo in style.css */
