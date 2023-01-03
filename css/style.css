@@ -48,6 +48,7 @@ body, html {
     100% {opacity: 1;}
   }
 
+
 .aboutSite>p {
     margin-left: 260px;
     margin-top: 50px;
@@ -95,28 +96,6 @@ body, html {
 
 .button4:hover {
     border: 3px solid #0093c0;
-}
-
-.aboutNavLeft {
-    position: absolute;
-    left: 20px;
-    top: 125px;
-    width: 80px;
-    height: 80px;
-    background: url('../img/left.png');
-    background-size: 80px;
-}
-
-
-
-.aboutNavRight {
-    position: absolute;
-    right: 20px;
-    top: 125px;
-    width: 80px;
-    height: 80px;
-    background: url('../img/right.png');
-    background-size: 80px;
 }
 
 
@@ -176,16 +155,9 @@ body, html {
 }
 
 .mainInfoBlock:hover {
-    box-shadow:
-      1px 1px lightgray,
-      2px 2px lightgray,
-      3px 3px lightgray,
-      4px 4px lightgray,
-      5px 5px lightgray,
-      6px 6px lightgray,
-      7px 7px lightgray;
-    -webkit-transform: translateX(-7px);
-    transform: translateX(-7px);
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
   }
 
 
@@ -253,7 +225,6 @@ body, html {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-    animation: 1s linear forwards;
   }
 
 @media (max-width: 1280px) {
@@ -401,16 +372,23 @@ body, html {
 
 .aboutUsMoreButton {
     width: 220px;
-    height: 50px;
+    height: 40px;
     text-align: center;
     font-weight: bolder;
     font-size: 16px;
-    line-height: 50px;
-    border: 3px solid gray;
+    line-height: 40px;
+    outline: 3px solid gray;
     border-radius: 25px;
     color: black;
     float: left;
     margin-top: 50px;
+}
+
+.aboutUsMoreButton:hover {
+    background: red;
+    outline: none;
+    color: #fff;
+    height: 40px;
 }
 
 .aboutUsContainer {
@@ -482,6 +460,12 @@ body, html {
     margin-bottom: 30px;
     position: absolute;
     color: #ffffff;
+}
+
+.newsBlock:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 @media (max-width: 1280px) {
@@ -626,18 +610,24 @@ body, html {
 
 .buttonMoreViber {
     width: 200px;
-    height: 50px;
+    height: 40px;
     text-align: center;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 40px;
     background: #8f5db7;
-    border: 3px solid #59267c;
+    border: 2px solid #59267c;
     border-radius: 25px;
     color: black;
     float: left;
     margin-top: 50px;
     margin-left: 70px;
     color: white;
+}
+
+.buttonMoreViber:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 /* viber end */
@@ -823,10 +813,6 @@ body, html {
         height: 180px;
         background-size: 100% 200px;
         
-    }
-
-    .aboutNavLeft, .aboutNavRight {
-        display: none;
     }
 
     .aboutSite {
