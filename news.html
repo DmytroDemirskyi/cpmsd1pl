@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/aboutHospital.css">
     <link rel="stylesheet" href="css/news.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="script/script.js"></script>
     <title>Новини</title>
 </head>
 <body>
@@ -17,20 +18,20 @@
         <div class="container">
 
             <div class="mobileContainer"> <!-- media 320px -->
-                <div class="menuMobile"><img src="img/menuMobile.png" alt="#">
+                <div class="menuMobile"><img src="img/menuMobile.png" onclick="showMenu()" alt="#">
 
-                    <ul class="menuMobileNav">
-                        <li><a class="aMobileNav" href="">Головна</a></li>
-                        <li><a class="aMobileNav" href="#aboutUs">Інформація по центру</a></li>
-                        <li><a class="aMobileNav" href="">Персонал</a></li>
-                        <li><a class="aMobileNav" href="">Про нас</a></li>
-                        <li><a class="aMobileNav" href="">Ковід 19</a></li>
+                    <ul class="menuMobileNav" id="menuMobileNav">
+                        <li><a class="aMobileNav" href="index.html">Головна</a></li>
+                        <li><a class="aMobileNav" href="doctors.html">Обрати лікаря</a></li>
+                        <li><a class="aMobileNav" href="viber.html">Вайбер</a></li>
+                        <li><a class="aMobileNav" href="aboutHospital.html">Про нас</a></li>
+                        <li><a class="aMobileNav" href="news.html">Новини</a></li>
                     </ul>
                 </div>
                 
 
                 <div class="contactMobile">
-                <img src="img/contactMobile.png" alt="#">
+                <img src="img/contactMobile.png" onclick="showInfo()" alt="#">
                 <div class="mobileInfo">
                     <ul class="mobileContactList">
                         <li><img class="mapIcons" src="img/map.png" alt="#">вул. Волоська 47, м.Київ</li>
@@ -67,10 +68,10 @@
                 <nav>
                     <h1 class="siteLogo">ЦП<br>МСД №1</h1>
                     <ul class="menuNav">
-                        <li><a class="aNav" href="">Головна</a></li>
+                        <li><a class="aNav" href="index.html">Головна</a></li>
                         <li><a class="aNav" href="#aboutUs">Інформація по центру</a></li>
-                        <li><a class="aNav" href="">Персонал</a></li>
-                        <li><a class="aNav" href="">Про нас</a></li>
+                        <li><a class="aNav" href="doctors.html">Персонал</a></li>
+                        <li><a class="aNav" href="#aboutUs">Про нас</a></li>
                         <li><a class="aNav" href="">Ковід 19</a></li>
                     </ul>
                 </nav>
